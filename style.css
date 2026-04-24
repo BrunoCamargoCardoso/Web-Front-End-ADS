@@ -1,0 +1,148 @@
+
+/*  Seletor universal  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*  Seletor por elemento  */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f2;
+    color: #1a1a1a;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 24px 40px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #145c3a;
+    border-bottom: 2px solid #145c3a;
+    padding-bottom: 4px;
+    margin: 28px 0 12px;
+    text-decoration: underline dotted #a8d5be;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #333;
+}
+
+a {
+    color: #145c3a;
+    font-weight: 700;
+}
+
+/* Pseudo-classe */
+a:hover {
+    color: #e07b00;
+    text-decoration: underline;
+}
+
+/*  Seletor por ID  */
+#topo {
+    background-color: #145c3a;
+    color: #ffffff;
+    padding: 24px 28px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+#topo h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/*  Seletor por classe */
+.profissao {
+    font-size: 15px;
+    font-style: italic;
+    color: #c8ebd8;
+    margin-top: 4px;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    border: 3px solid #145c3a;
+    display: block;
+    margin: 16px 0;
+}
+
+.lista-contatos {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-contatos li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.habilidades {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.habilidades li {
+    background-color: #d4eddf;
+    color: #0d3d25;
+    border: 1px solid #a8d5be;
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.texto-resumo {
+    font-family: 'Merriweather', serif;
+    font-style: oblique;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #2a2a2a;
+    border-left: 4px solid #145c3a;
+    padding-left: 14px;
+    margin-top: 4px;
+}
+
+.experiencia p {
+    margin-top: 8px;
+}
+
+.experiencia ul {
+    margin: 6px 0 10px 20px;
+}
+
+.experiencia ul li {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 4px;
+}
+
+
+.italico {
+    font-style: italic;
+    font-size: 12px;
+    color: #555;
+    margin-top: 6px;
+}
+
+/*  Seletor por atributo  */
+img[title="ods-logo"] {
+    border: 2px dashed #145c3a;
+    border-radius: 4px;
+    margin-top: 8px;
+}
